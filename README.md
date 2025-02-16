@@ -91,8 +91,5 @@ npm start
 - ✅ Deploy the system online 🌍
 
 ---
-## 📜 License
-This project is licensed under the **MIT License**.
 
-💡 **Contributions are welcome!** If you find any issues or want to add improvements, feel free to submit a PR. 🚀
 
