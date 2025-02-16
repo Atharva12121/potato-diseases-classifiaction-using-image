@@ -18,6 +18,24 @@ Make sure you have the following installed:
 - **TensorFlow & Keras** (for deep learning model) 🧠
 
 ---
+## 🏗️ Setting up Virtual Environment (Recommended)
+
+1️⃣ **Create a virtual environment:**
+```sh
+python -m venv venv
+```
+
+2️⃣ **Activate the virtual environment:**
+- On **Windows:**
+  ```sh
+  venv\Scripts\activate
+  ```
+- On **macOS/Linux:**
+  ```sh
+  source venv/bin/activate
+  ```
+
+---
 ## 🔙 Backend Setup (FastAPI & TensorFlow)
 
 1️⃣ **Clone the repository:**
@@ -33,7 +51,7 @@ pip install fastapi uvicorn numpy pillow tensorflow keras
 
 3️⃣ **Run the API server:**
 ```sh
-python backend.py
+python main.py
 ```
 
 🎯 The FastAPI server will start at: **`http://localhost:8000`**
@@ -89,7 +107,5 @@ npm start
 - ✅ Improve model accuracy 🏆
 - ✅ Add support for more plant diseases 🌾
 - ✅ Deploy the system online 🌍
-
----
 
 
